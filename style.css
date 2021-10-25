@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: fantasy;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  margin: 4px;
+  display: block;
+}
+
+.main-heading {
+  text-align: center;
+  background-color: aqua;
+  padding: 1rem;
+  color: #fff;
+}
+
+.form textarea {
+  padding: 5px;
+  font-size: 1.4rem;
+  min-width: 200px;
+  height: 300px;
+  width: 800px;
+}
+
+button {
+  padding: 18px 12px;
+  margin: 3px 2px;
+  display: block;
+  background-color: #1a7753;
+  border: none;
+  color: #fff;
+}
+
+.result {
+  font-size: 24px;
+  padding: 8px;
+  margin: 4px;
+  border: 2px solid #000;
+  border-radius: 4px;
+  width: 600px;
+  height: 200px;
+}
