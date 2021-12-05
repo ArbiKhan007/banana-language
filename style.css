@@ -39,7 +39,7 @@ button {
   padding: 18px 12px;
   margin: 3px 2px;
   display: block;
-  background-color: #1a7753;
+  background-color: var(--main-blue);
   border: none;
   color: #fff;
 }
