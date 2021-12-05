@@ -1,3 +1,8 @@
+:root {
+  --main-yellow: #fce029;
+  --main-blue: #0a75bc;
+}
+
 body {
   margin: 0;
   font-family: fantasy;
@@ -17,9 +22,9 @@ body {
 
 .main-heading {
   text-align: center;
-  background-color: yellow;
+  background-color: var(--main-yellow);
   padding: 1rem;
-  color: #fff;
+  color: var(--main-blue);
 }
 
 .form textarea {
